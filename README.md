@@ -74,11 +74,11 @@ This system can be integrated into a mobile or web application by converting the
 
 ### Visualization & Overfitting
 
-1. What signs indicated overfitting in your first model?
+### 1. What signs indicated overfitting in your first model?
 
 Signs of overfitting in the first model included high training accuracy but low validation accuracy, as well as a large gap between training and validation loss.
     
-2. How did data augmentation affect validation accuracy?
+### 2. How did data augmentation affect validation accuracy?
 
 Data augmentation improved validation accuracy by exposing the model to more varied data, reducing overfitting and improving generalization.
 
@@ -86,11 +86,11 @@ Data augmentation improved validation accuracy by exposing the model to more var
 
 ### Model Improvement
 
-3. What is the purpose of dropout layers?
+### 3. What is the purpose of dropout layers?
 
 Dropout layers are used to randomly deactivate some neurons during training. This prevents the model from becoming too dependent on specific features and reduces overfitting.
 
-4. Why does data augmentation improve generalization?
+### 4. Why does data augmentation improve generalization?
 
 Data augmentation improves generalization by providing more diverse training examples, allowing the model to perform better on unseen data.
 
@@ -98,11 +98,11 @@ Data augmentation improves generalization by providing more diverse training exa
 
 ### Performance Comparison
 
-5. Compare accuracy before and after improvements.
+### 5. Compare accuracy before and after improvements.
 
 Before improvements, the model had lower validation accuracy (e.g., around 70%). After applying techniques like data augmentation and dropout, the accuracy improved (e.g., up to 85%).
 
-6. Which technique contributed most to improvement?
+### 6. Which technique contributed most to improvement?
 
 Data augmentation contributed the most to improvement because it effectively increased the dataset size and variability.
 
@@ -110,11 +110,11 @@ Data augmentation contributed the most to improvement because it effectively inc
 
 ### Deployment & Application
 
-7. Why is saving the model important?
+### 7. Why is saving the model important?
 
 Saving the model is important so it can be reused without retraining. It allows deployment in applications and ensures consistency in predictions.
 
-8. How can this model be deployed in a real-world system?  
+### 8. How can this model be deployed in a real-world system?  
 
 The model can be deployed in real-world systems by integrating it into applications such as mobile apps, websites, or embedded systems. For example, it can be used in a mobile app that scans objects and provides instant classification results.
 
